@@ -3,56 +3,5 @@
 }
 
 body {
-	background: #1a1a1a;
-	height: 2000px;
+	background: #000;
 }
-
-#nav {
-	color: #fff;
-	position: fixed;
-	width: 100%;
-	height: 60px;
-	background: rgba(25, 25, 25, 0.8);
-}
-
-#content {
-	color: #fff;
-	font-size: 50px;
-	padding-top: 100px;
-}
-
-ul li {
-	list-style: none;
-	float: left;
-}
-
-ul li a {
-	display: block;
-	width: 60px;
-	height: 60px;
-	margin: 0 5px;
-	cursor: crosshair;
-	background-image: url("../image/nav.svg");
-}
-
-ul li a.n1 {
-	margin: 0 0 0 20px;
-	background-position: 60px 0;
-}
-
-ul li a.n2 {
-	background-position: 120px 0;
-}
-
-ul li a.n3 {
-	background-position: 180px 0;
-}
-
-ul li a.n4 {
-	background-position: 240px 0;
-}
-
-ul li a.n5 {
-	background-position: 300px 0;
-}
-
