@@ -3,10 +3,22 @@
 }
 
 body {
+	color: #aaa;
+	font-size: 2em;
+	font-family: consolas;
 	background: #000;
 }
 
 ul,
 ul li {
     color: #fff;
+}
+
+a:link {
+	color: #900;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #f0f;
 }
